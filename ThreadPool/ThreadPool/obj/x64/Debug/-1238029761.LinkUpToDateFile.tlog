@@ -1,0 +1,1 @@
+g++ -o "/root/projects/ThreadPool/bin/x64/Debug/ThreadPool.out" -Wl,--no-undefined -Wl,--exclude-libs=pthreadVC2.lib -Wl,--exclude-libs=pthreadVCE2.lib -Wl,--exclude-libs=pthreadVSE2.lib -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/ThreadPool/obj/x64/Debug/main.o /root/projects/ThreadPool/obj/x64/Debug/ThreadPool.o -lpthread
